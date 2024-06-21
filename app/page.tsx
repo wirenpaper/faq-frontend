@@ -3,7 +3,7 @@ export default function Home() {
     <div>
       <h1 className="text-center p-5">Project 2: FAQ/Accordian</h1>
       <div className="flex justify-center">
-        <div className="bg-blue-800">
+        <div className="bg-blue-800 rounded-md w-3/4">
           <h2 className="text-white flex justify-center py-5">
             Frequently Asked Questions
           </h2>
