@@ -10,6 +10,10 @@ const config: Config = {
     extend: {
       fontSize: {
         "32px": "32px",
+        "20px": "20px",
+      },
+      width: {
+        "42rem": "42rem",
       },
       fontFamily: {
         "custom-sans": ["Arial", "Helvetica", "sans-serif"],
