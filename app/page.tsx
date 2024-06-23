@@ -12,16 +12,31 @@ export default function Home() {
           </h2>
           <div>
             <QuestionDiv>
-              <p className="font-semibold">Is this a good product?</p>
-              <CustomButton>+</CustomButton>
+              <div className="flex-row w-full">
+                <div className="flex items-center justify-between">
+                  <p className="font-semibold">Is this a good product?</p>
+                  <CustomButton>+</CustomButton>
+                </div>
+                <p className="mt-4 hidden">What is this hahaha lolol</p>
+              </div>
             </QuestionDiv>
             <QuestionDiv>
-              <p className="font-semibold">Is this a good product?</p>
-              <CustomButton>+</CustomButton>
+              <div className="flex-row w-full">
+                <div className="flex items-center justify-between">
+                  <p className="font-semibold">How much does it cost?</p>
+                  <CustomButton>+</CustomButton>
+                </div>
+                <p className="mt-4 hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium eum nobis enim, expedita ducimus voluptates placeat minima? Ipsa, exercitationem fugit aspernatur deleniti incidunt harum placeat eos debitis perferendis aliquid architecto.</p>
+              </div>
             </QuestionDiv>
-            <QuestionDiv className="mb-10">
-              <p className="font-semibold">Is this a good product?</p>
-              <CustomButton>+</CustomButton>
+            <QuestionDiv>
+              <div className="flex-row w-full">
+                <div className="flex items-center justify-between">
+                  <p className="font-semibold">When can I get it?</p>
+                  <CustomButton>+</CustomButton>
+                </div>
+                <p className="mt-4 hidden">hfljhahah</p>
+              </div>
             </QuestionDiv>
           </div>
         </div>

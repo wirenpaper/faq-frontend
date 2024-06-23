@@ -8,7 +8,7 @@ interface QuestionDivProps {
 
 const QuestionDiv: React.FC<QuestionDivProps> = ({ children, className }) => {
   return (
-    <div className={clsx("bg-white my-5 mx-5 pt-3 pb-4 px-4 flex items-center justify-between", 
+    <div className={clsx("bg-white my-5 mx-5 pt-3 pb-4 px-4 flex items-center", 
     className)}>
       {children}
     </div>
