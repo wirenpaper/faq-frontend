@@ -12,6 +12,12 @@ const config: Config = {
         "32px": "32px",
         "20px": "20px",
       },
+      borderRadius: {
+        '12px': '12px'
+      },
+      padding: {
+        '1.6': '0.4rem',
+      },
       width: {
         "42rem": "42rem",
       },
